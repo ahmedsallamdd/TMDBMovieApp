@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="BlackStoneTask" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_background_image" translatesAutoresizingMaskIntoConstraints="NO" id="gE4-eD-NUN">
+                    <rect key="frame" x="0.0" y="95.333333333333314" width="393" height="510.99999999999994"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iMovies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKv-pA-FML">
+                    <rect key="frame" x="98.333333333333329" y="74.333333333333329" width="196.33333333333337" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSo-nd-6tV" customClass="RoundedButton" customModule="BlackStoneTask" customModuleProvider="target">
+                    <rect key="frame" x="19.666666666666657" y="606.33333333333337" width="353.66666666666674" height="75"/>
+                    <color key="backgroundColor" name="app_dark_color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="UKN-zX-ePR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="20" maxX="10" maxY="20"/>
+                    <state key="normal" title="Continue with Google" image="google_logo">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="signInWithGoogleButtonAction:" destination="-1" eventType="touchUpInside" id="iSH-Iu-xtv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gE4-eD-NUN" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" multiplier="0.8" id="9qd-tX-hPz"/>
+                <constraint firstItem="gE4-eD-NUN" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Abp-s9-9s8"/>
+                <constraint firstItem="HSo-nd-6tV" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="Bes-4X-DiR"/>
+                <constraint firstItem="IKv-pA-FML" firstAttribute="centerY" secondItem="gE4-eD-NUN" secondAttribute="top" id="CVa-lg-75b"/>
+                <constraint firstItem="HSo-nd-6tV" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="GSf-ZW-Exd"/>
+                <constraint firstItem="gE4-eD-NUN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JWS-MT-dAx"/>
+                <constraint firstItem="HSo-nd-6tV" firstAttribute="top" secondItem="gE4-eD-NUN" secondAttribute="bottom" id="VaS-3I-6iP"/>
+                <constraint firstItem="IKv-pA-FML" firstAttribute="width" secondItem="gE4-eD-NUN" secondAttribute="width" multiplier="0.5" id="dzE-k4-nKp"/>
+                <constraint firstAttribute="trailing" secondItem="gE4-eD-NUN" secondAttribute="trailing" id="j5a-Xr-pCh"/>
+                <constraint firstItem="IKv-pA-FML" firstAttribute="centerX" secondItem="gE4-eD-NUN" secondAttribute="centerX" id="pKu-NG-Ujf"/>
+                <constraint firstItem="gE4-eD-NUN" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.6" id="zoF-KL-rM9"/>
+            </constraints>
+            <point key="canvasLocation" x="95" y="20"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="HSo-nd-6tV">
+            <size key="intrinsicContentSize" width="239.33333333333334" height="37.333333333333336"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="google_logo" width="37.333332061767578" height="37.333332061767578"/>
+        <image name="login_background_image" width="1720" height="2464"/>
+        <namedColor name="app_dark_color">
+            <color red="0.16862745098039217" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

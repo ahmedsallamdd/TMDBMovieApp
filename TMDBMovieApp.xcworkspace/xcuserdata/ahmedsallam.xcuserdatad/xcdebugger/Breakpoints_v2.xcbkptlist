@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1DF0947-2431-43FE-ACBD-08166E28D031"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E7584B1-E74F-460B-80FA-DF619AD8F5F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/GoogleUserRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C26F706-5E94-4EDA-B70E-F5B13718131B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/GoogleUserRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C26F706-5E94-4EDA-B70E-F5B13718131B - eb09c1135c1ff942"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.GoogleUserRepository.fetchData((Swift.Result&lt;TMDBMovieApp.UserProfileModel, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/GoogleUserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "566">
+               </Location>
+               <Location
+                  uuid = "0C26F706-5E94-4EDA-B70E-F5B13718131B - 546e95a6ddb536f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in TMDBMovieApp.GoogleUserRepository.fetchData((Swift.Result&lt;TMDBMovieApp.UserProfileModel, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/GoogleUserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8F4D827-6E00-4C6A-BF81-D41DD5E62468"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/Repository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "isConnectedToInternet"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "165CB191-B077-48CE-AF01-3EB2793818CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "165CB191-B077-48CE-AF01-3EB2793818CC - 2da61b2e049c95c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "165CB191-B077-48CE-AF01-3EB2793818CC - 2da61b2e049c95c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "393">
+               </Location>
+               <Location
+                  uuid = "165CB191-B077-48CE-AF01-3EB2793818CC - 3f607396c2ec6b1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (TMDBMovieApp.TMDBMedia) -&gt; Swift.Bool in TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "165CB191-B077-48CE-AF01-3EB2793818CC - 2da61b2e049c954b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "529">
+               </Location>
+               <Location
+                  uuid = "165CB191-B077-48CE-AF01-3EB2793818CC - 3f607396c2ec6b97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (TMDBMovieApp.TMDBMedia) -&gt; Swift.Bool in TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D23915D-CAF9-4130-AEEF-BD791C0E4BB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3D23915D-CAF9-4130-AEEF-BD791C0E4BB3 - 2da61b2e049c93f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "3D23915D-CAF9-4130-AEEF-BD791C0E4BB3 - 7c93b51bb2671e95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(), TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "193">
+               </Location>
+               <Location
+                  uuid = "3D23915D-CAF9-4130-AEEF-BD791C0E4BB3 - 2da61b2e049c939a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "3D23915D-CAF9-4130-AEEF-BD791C0E4BB3 - 7c93b51bb2671efa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(), TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "617CFA13-B7A1-4014-AA4D-B0B1B8F4AE82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "617CFA13-B7A1-4014-AA4D-B0B1B8F4AE82 - 61eba1691801501d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "617CFA13-B7A1-4014-AA4D-B0B1B8F4AE82 - 7d188aa2b593172f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(), TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 61eba16918015e2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "393">
+               </Location>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 9f64ee6b9f3b5171"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (TMDBMovieApp.TMDBMedia) -&gt; Swift.Bool in TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 61eba16918015e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "393">
+               </Location>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 9f64ee6b9f3b5112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (TMDBMovieApp.TMDBMedia) -&gt; Swift.Bool in TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 61eba16918015ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "529">
+               </Location>
+               <Location
+                  uuid = "A5ABC7AC-2987-48C4-9AC2-2C68286A09AF - 9f64ee6b9f3b5196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (TMDBMovieApp.TMDBMedia) -&gt; Swift.Bool in TMDBMovieApp.TvShowsRepository.fetchData((Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/TvShowsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B997651-ADAA-42E5-9040-6ED58347339D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "CategoryTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2B997651-ADAA-42E5-9040-6ED58347339D - 39b82d314e96f9e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.configure(with: Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, onNeedToLoadNextPage: Swift.Optional&lt;(TMDBMovieApp.MediaType) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1058">
+               </Location>
+               <Location
+                  uuid = "2B997651-ADAA-42E5-9040-6ED58347339D - 39b82d314e96f9c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.configure(with: Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, onNeedToLoadNextPage: Swift.Optional&lt;(TMDBMovieApp.MediaType) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1062">
+               </Location>
+               <Location
+                  uuid = "2B997651-ADAA-42E5-9040-6ED58347339D - edb80d48a18c041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.configure(with: Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "953">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchNextPage(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - 2555b8714fa9ec27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Result&lt;&#x3c4;_0_1.T, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.HomeViewModel.fetchNextPage(TMDBMovieApp.MediaType) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - 3ed9126a4d6028fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - f6a969b59de6ad44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;&#x3c4;_0_1.T, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - fd530e7134050473"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Result&lt;&#x3c4;_0_1.T, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - 3ed9126a4d602b3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "717">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - f6a969b59de6ae86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;&#x3c4;_0_1.T, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "489">
+               </Location>
+               <Location
+                  uuid = "E7328659-1550-4230-9D4B-A5EBFD0242D0 - fd530e71340507b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Result&lt;&#x3c4;_0_1.T, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.HomeViewModel.fetchNextPage(_: TMDBMovieApp.MediaType, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88354CB8-918A-428D-8533-D3A42EF28D6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88354CB8-918A-428D-8533-D3A42EF28D6C - cb35928b34537159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "437">
+               </Location>
+               <Location
+                  uuid = "88354CB8-918A-428D-8533-D3A42EF28D6C - cb35928b3453717e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "437">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E09A9FB2-0EC3-480D-B71A-B8F7BAACFDA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5016505-A6ED-4BFF-A602-0FFC39CBB208"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F3881F5-9C3A-43EB-A267-A5E231D2D5BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchNextPage(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95F1D7B4-D429-48F9-B992-B7D2B35D7768"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "stopLoadingAnimation()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "95F1D7B4-D429-48F9-B992-B7D2B35D7768 - 83fa30f673ecadee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.ViewController.showErrorMessage(title: Swift.Optional&lt;Swift.String&gt;, message: Swift.String, actionHandler: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "95F1D7B4-D429-48F9-B992-B7D2B35D7768 - 6d54150b9ab73714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.ViewController.stopLoadingAnimation() -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE9D631A-5A3E-4D38-A78C-36DB8A8780B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "startLoadingAnimation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE9D631A-5A3E-4D38-A78C-36DB8A8780B9 - 396f4cabb815f15f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.ViewController.startLoadingAnimation() -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "609">
+               </Location>
+               <Location
+                  uuid = "AE9D631A-5A3E-4D38-A78C-36DB8A8780B9 - 396f4cabb815f15f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.ViewController.startLoadingAnimation() -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Globals/BaseClasses/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "612E8D92-5487-4D8F-805A-433E46008C81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "configure(movies:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C544A82-BD44-4639-B1BD-529783AF912C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C544A82-BD44-4639-B1BD-529783AF912C - 1bada1eddf529f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(pageNumber: Swift.Int, genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "4C544A82-BD44-4639-B1BD-529783AF912C - c058669b566f53d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2225347-2925-46F8-8701-E9BE85011D7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2225347-2925-46F8-8701-E9BE85011D7A - cfe246d0e3110195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(pageNumber: Swift.Int, genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "279">
+               </Location>
+               <Location
+                  uuid = "E2225347-2925-46F8-8701-E9BE85011D7A - 5722983ddfeee596"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(pageNumber: Swift.Int, genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "E2225347-2925-46F8-8701-E9BE85011D7A - aa9d4e20020733c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "279">
+               </Location>
+               <Location
+                  uuid = "E2225347-2925-46F8-8701-E9BE85011D7A - 1ea9b0ed2a9c7252"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "131">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3339B7A-9DC4-4070-A55A-9F9870B9C00D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3339B7A-9DC4-4070-A55A-9F9870B9C00D - c058669b566f51e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  uuid = "C3339B7A-9DC4-4070-A55A-9F9870B9C00D - aa9d4e20020733a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "246">
+               </Location>
+               <Location
+                  uuid = "C3339B7A-9DC4-4070-A55A-9F9870B9C00D - 1ea9b0ed2a9c7252"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "131">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "999823CD-D7ED-4C79-9C07-364D5F78C73D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "999823CD-D7ED-4C79-9C07-364D5F78C73D - 1ea9b0ed2a9c0df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "999823CD-D7ED-4C79-9C07-364D5F78C73D - 1ea9b0ed2a9c0df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  uuid = "999823CD-D7ED-4C79-9C07-364D5F78C73D - 1ea9b0ed2a9c0df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1509">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD2F7B8F-F9DC-4510-8497-16E18C9A1A7F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD2F7B8F-F9DC-4510-8497-16E18C9A1A7F - 1ea9b0ed2a9c0db7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "CD2F7B8F-F9DC-4510-8497-16E18C9A1A7F - ec60869dd2787aa0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TMDBMovieApp.Movie) -&gt; TMDBMovieApp.TMDBMedia in closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TMDBMovieApp.GeneralPagedResponseModel&lt;Swift.Array&lt;TMDBMovieApp.Movie&gt;&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; () in TMDBMovieApp.MoviesRepository.fetchMoviesNextPage(genres: Swift.Array&lt;TMDBMovieApp.Genre&gt;, _: (Swift.Result&lt;Swift.Array&lt;TMDBMovieApp.TMDBMedia&gt;, TMDBMovieApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48FEA055-4F77-4FDE-995D-B4BDEC3FC6BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Remote/Repos/MoviesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "fetchMoviesNextPage(genres:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BAF7224-16C0-456E-9CE8-0E7330FC1AA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC20E71C-0A1C-4149-ADFF-452D092A016C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C8068FF-54D1-4DD7-865F-8FB0804362AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C8068FF-54D1-4DD7-865F-8FB0804362AC - cb35928b34537d5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "795">
+               </Location>
+               <Location
+                  uuid = "3C8068FF-54D1-4DD7-865F-8FB0804362AC - cb35928b34537cda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1065">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F02E0596-ECF5-4660-B7D9-444978AA9DD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F02E0596-ECF5-4660-B7D9-444978AA9DD3 - cb35928b34537de2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  uuid = "F02E0596-ECF5-4660-B7D9-444978AA9DD3 - cb35928b34537d7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.CategoryTableViewCell.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/Cells/CategoryTableViewCell/CategoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "533">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFD0B434-644C-4851-A3A7-E5D880482F53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E9E2327-B291-4712-B364-615D23B38D48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMDBMovieApp/Presentation/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E9E2327-B291-4712-B364-615D23B38D48 - 71eb2dceb3daa811"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.HomeViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "5279">
+               </Location>
+               <Location
+                  uuid = "8E9E2327-B291-4712-B364-615D23B38D48 - 71eb2dceb3daa811"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TMDBMovieApp.HomeViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "TMDBMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedsallam/Desktop/Me/Personal%20Projects/TMDBMovieApp/TMDBMovieApp/Presentation/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "3995">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

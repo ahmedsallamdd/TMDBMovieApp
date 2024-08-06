@@ -1,0 +1,1365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0054C0C639E0A5E5C3CF94F28C53F29A /* OIDEndSessionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 882507D1945F9E73029BA7C6F2E7ACC0 /* OIDEndSessionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF4B878E667471B43794AA8ABBAC231 /* OIDAuthState.m in Sources */ = {isa = PBXBuildFile; fileRef = C2390FAEB2669F064224508FB58CE963 /* OIDAuthState.m */; };
+		0F688454CB7276BA6C33CF1074914C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		15D84A083CA06130F3654A9B63552FAE /* Pods-TMDBMovieAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C40F0932A2BCB5FFD65EB598F8DA856 /* Pods-TMDBMovieAppTests-dummy.m */; };
+		17ADED2A03C1221197B3C3F7226C9D9A /* OIDURLQueryComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B3F79337CBFFF83257E7B00B771DA5 /* OIDURLQueryComponent.m */; };
+		1BDA095FE7DE194DFF9A37775B65CD6D /* OIDTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FE0FFF5F6F77537C5BA6948DA7BF07 /* OIDTokenRequest.m */; };
+		2646A02B776E232E79831F093663E6C7 /* OIDExternalUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 374BE34709A96E889A3C7CC40D9F473B /* OIDExternalUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D6DA273CBE1BE868548CB56035F5B9 /* Pods-TMDBMovieApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10E5BEA6EE698C72A9551E72D75FD3D /* Pods-TMDBMovieApp-dummy.m */; };
+		287DDAF293B5DD940AB04DF7842B5A7C /* OIDResponseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8223C2D685A44F999305FF3C99F89F75 /* OIDResponseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29241B2BB72959C159BDCEE52B6B8805 /* OIDIDToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E44DFFB8D51BFC244B6CB374347F4EE /* OIDIDToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBF25B31DD495FF81FC90CEBAD80176 /* OIDScopeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EB31668093DE2FF54C3F6D022DE08D /* OIDScopeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B4345ECBB0C08B3FE0685563EB3F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		310AEC030BEECE38DEB35C48C8238F70 /* AppAuth-AppAuthCore_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = EF9852680BCD6EC8B15F622B5B92A838 /* AppAuth-AppAuthCore_Privacy */; };
+		3240253830E367917124024B7924D1E0 /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B71A951839C2B17CF2B2CFC2BFF1B3B /* OIDErrorUtilities.m */; };
+		329FD409C5A67DC3BE9E28E93E7A55DB /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 106D754A6662441B75F06E27565F646E /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CE2ED8B8441A3CB8A513C6A1505D89 /* OIDAuthorizationService+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC9F1482602BCFD44C22504DBC22BAA /* OIDAuthorizationService+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694CE494B6DF0840A1B6FE8DC14F24F /* OIDServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = C9621523ACC21211F483599D1853AA2F /* OIDServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468E30F6129499D7C030B5DE450120ED /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F31B2BF4FB7197AB3278B779D71E9 /* OIDRegistrationResponse.m */; };
+		46C324522B26025BB8E58C9861A218CD /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEA918E89A2A0E96065408A8C5C6097 /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474EC8A6B61E91F8E40BD14A785A8685 /* OIDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EC2A65B4E448C4A73202C495805641 /* OIDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A586ADA41B07B9F6241DE1BF8DCE24C /* OIDEndSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C7D6E651C4724E18D3341C935FAC16 /* OIDEndSessionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C584CA7D6319D47EB3624BE484676C1 /* AppAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B432F390D09590A0CC39F7C19081BE1 /* AppAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD037BE47B7454C55C3E8EF90D0552D /* OIDRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E045D8CC0292D6DAF114066FE95D850A /* OIDRegistrationRequest.m */; };
+		547E9E44086F1D7FA62C4E6A2F065F44 /* OIDURLSessionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C98BF15999171EFDCF9ED2C53E6BE320 /* OIDURLSessionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A192D64055F796420A9D63926A273E0 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F06135A97D71CA7E45D25290C30742 /* OIDExternalUserAgentIOSCustomBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD7C81F358865EEB5A3A226A45A4FEF /* OIDAuthStateChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4F5BE01A47C89A12990D4390A8BEEE /* OIDAuthStateChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C59E4A1C457D819CD84164DF9E3C811 /* OIDEndSessionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F232A63C39EF62580FB234CF0AE9A60 /* OIDEndSessionResponse.m */; };
+		5EDED647312757265F8EC47BEB25479D /* OIDServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 201AAD7AD6D9533DD4AD080CC278A29C /* OIDServiceConfiguration.m */; };
+		5F1F7BF5F9247F778ABC0E49B4E5EBDD /* OIDAuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C354CD71979EE275EEF1FB3E207ECE4 /* OIDAuthorizationResponse.m */; };
+		6EFF8AACDD8E9635714B8152E2A9A92C /* OIDTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 614C71E55D6D884D77A8986F936FDE5F /* OIDTokenResponse.m */; };
+		702F4B2C0D18B950EB3E747828B5FC50 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FBEF68548E8D1BEA6EAB8B207197A /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702FE7B20130585BD2436525E870DA92 /* OIDTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 75047ED7CAB6E2493FFA1146E68E630D /* OIDTokenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7173971F1C14491B8E5A7BE056995595 /* OIDTokenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C27E0A63BE0BAB3EF474F544EB110604 /* OIDTokenUtilities.m */; };
+		73C5B3DD8FE06281A3B2EB42A592FBCD /* OIDExternalUserAgentCatalyst.h in Headers */ = {isa = PBXBuildFile; fileRef = 910031003F8FA17DA748561E8C847DF9 /* OIDExternalUserAgentCatalyst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74FABF1F431E2FA7124F2C443312F1AE /* OIDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0555135A309AD3FFBED3429918D6623D /* OIDError.m */; };
+		7E692CC622B3DD6DAFC2F24E0C8F26E2 /* OIDURLSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7797976227CA6BC65DC6DF2F9B34B1 /* OIDURLSessionProvider.m */; };
+		7FB55D390D6476E0C9CFA02D3B9BF21C /* AppAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6439ADF74C1C233BDE887AEB62C54265 /* AppAuth-dummy.m */; };
+		82A5F986314385075C3173E9FDEFF49B /* Pods-TMDBMovieAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F51AFCA669853E41F6CD7D11AB53B0E /* Pods-TMDBMovieAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D0A19E4FB75269F7632C4FC0E8BE34 /* OIDFieldMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 852AE677862B1687B5DD0CCFA2097A54 /* OIDFieldMapping.m */; };
+		8404A03AF819708FE5CF8DB7C5AD263F /* OIDExternalUserAgentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 719CF8DBDF84E62391446C51213436B0 /* OIDExternalUserAgentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8457CE5E8A20E440D7E31CA82E76C421 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF6F7D8067B610096751EA3FA9B596 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m */; };
+		8C99055F42D86804508A31368C303D29 /* OIDExternalUserAgentCatalyst.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D5AC99217229C7CA2E95BAD750C2C /* OIDExternalUserAgentCatalyst.m */; };
+		8E06A2EB7E4BD5B4BCBB5049D0FFC9AD /* OIDAuthState.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D4F22E61D80826F59445A9717D57C /* OIDAuthState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		909DDE0E831D6401C3C6C4770EE11BE9 /* OIDTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55878DAC63DE5577CEA1AEB446CF54E6 /* OIDTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958EAE1E90C473F5E1A01701F9602CA3 /* OIDRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 565626E08807E15DA6EAD42D083CA8E8 /* OIDRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98940975CA7FD0211195CFFFA75F21B2 /* AppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF27DD93C72505AADDE99E3BEE46886 /* AppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9901565B4BA3E2BAB551C8FF633796CD /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2397E2D083B93F704E1F075DDC6753D6 /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5854DF23EF93721C5C9C0CE75EBF873 /* OIDServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B1E4B6A9551B2EAA38CEB6EB586BB /* OIDServiceDiscovery.m */; };
+		A610D8E99FAA24198282686004E0F638 /* OIDErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4336E6C695CFA97A8B931033DAB89E /* OIDErrorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6997288D5C505CE79297B7A4F817A67 /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB1C03985259FDD4056450C8E28E7A1 /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A71083C54CF7C774414F5C554AE23506 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EE8421145E87635335167C9C19DB47E4 /* PrivacyInfo.xcprivacy */; };
+		A7779F3FD47C40C24EC7A5DEB75C1DA8 /* OIDEndSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DD9B992A45220F0C70330F4082A1BD /* OIDEndSessionRequest.m */; };
+		B3DD978DD1222E83B7DCB6FC34C82C98 /* OIDScopeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B7DE832ACB0D4388C2AF4806A6A861 /* OIDScopeUtilities.m */; };
+		B5A0A8E6B3749281B9CD90B225E244A6 /* OIDFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = AB52B15B64EA6FE1AC60741EDF37FE97 /* OIDFieldMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CB741980C27B0C8BF6941EE9987C19 /* OIDExternalUserAgentIOSCustomBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFAB17446D8E275196ACA861DEEDD4 /* OIDExternalUserAgentIOSCustomBrowser.m */; };
+		B5E25696BEFD5775AA9BFF956EF4458A /* OIDExternalUserAgentSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDFE606A6C2BFB7B02E049441293C86 /* OIDExternalUserAgentSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E22310EBE9C3AF5AD9938DFB2D8E89 /* OIDClientMetadataParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C118EDBB839079BE70CAA84EBDA6CB1 /* OIDClientMetadataParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3458738E257A4AA757F97E35A11692 /* OIDAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F034C389AB30459F8419DC11C702DE /* OIDAuthorizationRequest.m */; };
+		BDAE22D0BB9B9948B20321702ED3B981 /* OIDTokenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DB89C9D202D4CA598A0BD6D6D84E94 /* OIDTokenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBA1A77B058C37101F19BD48BA7A5D1 /* OIDRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0FCA4D2D621AD2D70B4FC306E55547 /* OIDRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBC3336AB93E577E626491FE566E8F /* OIDError.h in Headers */ = {isa = PBXBuildFile; fileRef = D38E48BF139593FCA59F1E7C50017E23 /* OIDError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE74A1514F19FA40C8ECF1F46627FAC3 /* OIDAuthState+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD9CEEA03C1418BB62006AE4828F3D /* OIDAuthState+IOS.m */; };
+		BF219DF08B3E37A143C9E3E5D46360AA /* OIDScopes.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D5E29F9D8327B2D13BD9835FB08AEE /* OIDScopes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6A69C9CFE70691FF16634EAEA76564 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */; };
+		C021158A24D7CF95134A80F978F807A7 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC26BF35832E927551ABC0F717A735 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C295EE22102BBC40B0F7DE1C0A305039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		C611628DF90D56F44C10C436416F37F7 /* OIDGrantTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F196B54F95BF1F366B11A5B6BA4FE501 /* OIDGrantTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B30D0D933DDCDCC7936AD7D28B5AE0 /* OIDResponseTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6C36D80CC68A1486FC440FAD5BA40 /* OIDResponseTypes.m */; };
+		C8CCF5780C34A7F5ADFB6BBBCCECC656 /* OIDExternalUserAgentIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E99653D3B1AE72CA9EEC0B075786A4 /* OIDExternalUserAgentIOS.m */; };
+		CD2FE7EC8EDDDC584FE423D0FC3B5466 /* OIDIDToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D560A6DE6D01729385B3DFA2B2B6C /* OIDIDToken.m */; };
+		D262BA2558D719F3B92AC1B1976C0F65 /* OIDAuthorizationService+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4A3983C46810F774BB717E584A28B5 /* OIDAuthorizationService+IOS.m */; };
+		D352707AE0F20050D29683BB9E5924AB /* OIDAuthorizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F13EF57555CF631E3A2254554B1589EF /* OIDAuthorizationService.m */; };
+		D5BC3548DB4A2967F9039DDBF119A98A /* OIDServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3189926983B5029EE5AE253D003465B4 /* OIDServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA54D5FBE28E5FD4B5C37F5B0537E81B /* Pods-TMDBMovieApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BFDCA59F5B4F9014686F0005960B0C /* Pods-TMDBMovieApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC9FF85CE538B875450ED6CA8D65B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		EC9C12890CF3006B2B6D2AB2BC26D057 /* OIDAuthStateErrorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F13A29DAC8660214583795F4025746F /* OIDAuthStateErrorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA8B13BAE382716E1BA8CB8E373378B /* OIDAuthState+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 983CFE82B0C123BB63CBE9823D6F1361 /* OIDAuthState+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F168E13393F0BD81E6C12CCFEE2B2B98 /* OIDClientMetadataParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 762150D1A358B0D5D6615F6F2B18DC03 /* OIDClientMetadataParameters.m */; };
+		F3308EA7703DE079DFEF9716B4D56CB5 /* OIDGrantTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCF3E32BC296159B0E5EA3796A981 /* OIDGrantTypes.m */; };
+		F4BB88D2C1266429CB931BA9F2FC2935 /* OIDExternalUserAgentIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B56E3DD895B3970D981FCE061CC4D15A /* OIDExternalUserAgentIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61F3D9A37DE717CF85B4EDB2C96DB9A /* OIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CC2EF07E601DA48A566AD8B180D8BE /* OIDScopes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015AB7A76869D3C902BE442DA3D6DF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
+			remoteInfo = AppAuth;
+		};
+		689D1A732F75390A70677CAE3261ABC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13B2F6DB0D9A6C1728585B9E7B007CB;
+			remoteInfo = "Pods-TMDBMovieApp";
+		};
+		B858D9E19BDCD4A1CDFBDDC7F5654F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
+			remoteInfo = AppAuth;
+		};
+		F93A37CA4F6D141998994F095D0195AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B932EC9659D505694902B50F4EB3D8B;
+			remoteInfo = "AppAuth-AppAuthCore_Privacy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B3F79337CBFFF83257E7B00B771DA5 /* OIDURLQueryComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLQueryComponent.m; path = Sources/AppAuthCore/OIDURLQueryComponent.m; sourceTree = "<group>"; };
+		042FBEF68548E8D1BEA6EAB8B207197A /* OIDAuthorizationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationResponse.h; path = Sources/AppAuthCore/OIDAuthorizationResponse.h; sourceTree = "<group>"; };
+		0555135A309AD3FFBED3429918D6623D /* OIDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDError.m; path = Sources/AppAuthCore/OIDError.m; sourceTree = "<group>"; };
+		099EA2D97C28CE743820F4C347DE4D67 /* ResourceBundle-AppAuthCore_Privacy-AppAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppAuthCore_Privacy-AppAuth-Info.plist"; sourceTree = "<group>"; };
+		09DB89C9D202D4CA598A0BD6D6D84E94 /* OIDTokenUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenUtilities.h; path = Sources/AppAuthCore/OIDTokenUtilities.h; sourceTree = "<group>"; };
+		0AF6C36D80CC68A1486FC440FAD5BA40 /* OIDResponseTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDResponseTypes.m; path = Sources/AppAuthCore/OIDResponseTypes.m; sourceTree = "<group>"; };
+		0B432F390D09590A0CC39F7C19081BE1 /* AppAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuthCore.h; path = Sources/AppAuthCore.h; sourceTree = "<group>"; };
+		106D754A6662441B75F06E27565F646E /* OIDAuthorizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationService.h; path = Sources/AppAuthCore/OIDAuthorizationService.h; sourceTree = "<group>"; };
+		1C9C8D718F0E53F6C71CCB86F68B48FE /* AppAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppAuth-Info.plist"; sourceTree = "<group>"; };
+		1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		1E0494048FBCB7784C8028DA20F73F6E /* AppAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.debug.xcconfig; sourceTree = "<group>"; };
+		1F749AC31188394A3A442EAC7522E1E9 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		201AAD7AD6D9533DD4AD080CC278A29C /* OIDServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceConfiguration.m; path = Sources/AppAuthCore/OIDServiceConfiguration.m; sourceTree = "<group>"; };
+		2397E2D083B93F704E1F075DDC6753D6 /* AppAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuth.h; path = Sources/AppAuth.h; sourceTree = "<group>"; };
+		2F4F5BE01A47C89A12990D4390A8BEEE /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateChangeDelegate.h; path = Sources/AppAuthCore/OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
+		3189926983B5029EE5AE253D003465B4 /* OIDServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceConfiguration.h; path = Sources/AppAuthCore/OIDServiceConfiguration.h; sourceTree = "<group>"; };
+		374BE34709A96E889A3C7CC40D9F473B /* OIDExternalUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgent.h; path = Sources/AppAuthCore/OIDExternalUserAgent.h; sourceTree = "<group>"; };
+		399C5A7FD3B5DEF1642B43C9B2AF162C /* Pods-TMDBMovieApp-TMDBMovieAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3B71A951839C2B17CF2B2CFC2BFF1B3B /* OIDErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDErrorUtilities.m; path = Sources/AppAuthCore/OIDErrorUtilities.m; sourceTree = "<group>"; };
+		3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AC26BF35832E927551ABC0F717A735 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AD012B4BB7F3B66D83C62FEAE72F981 /* Pods-TMDBMovieApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TMDBMovieApp"; path = Pods_TMDBMovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D5E29F9D8327B2D13BD9835FB08AEE /* OIDScopes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopes.h; path = Sources/AppAuthCore/OIDScopes.h; sourceTree = "<group>"; };
+		55878DAC63DE5577CEA1AEB446CF54E6 /* OIDTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenResponse.h; path = Sources/AppAuthCore/OIDTokenResponse.h; sourceTree = "<group>"; };
+		565626E08807E15DA6EAD42D083CA8E8 /* OIDRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationResponse.h; path = Sources/AppAuthCore/OIDRegistrationResponse.h; sourceTree = "<group>"; };
+		569D560A6DE6D01729385B3DFA2B2B6C /* OIDIDToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDIDToken.m; path = Sources/AppAuthCore/OIDIDToken.m; sourceTree = "<group>"; };
+		5C40F0932A2BCB5FFD65EB598F8DA856 /* Pods-TMDBMovieAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMDBMovieAppTests-dummy.m"; sourceTree = "<group>"; };
+		5C43C9ADC4369BE087C5BD5FC5DEEBD2 /* Pods-TMDBMovieAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieAppTests-Info.plist"; sourceTree = "<group>"; };
+		5F0FCA4D2D621AD2D70B4FC306E55547 /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Sources/AppAuthCore/OIDRegistrationRequest.h; sourceTree = "<group>"; };
+		5F51AFCA669853E41F6CD7D11AB53B0E /* Pods-TMDBMovieAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMDBMovieAppTests-umbrella.h"; sourceTree = "<group>"; };
+		614C71E55D6D884D77A8986F936FDE5F /* OIDTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenResponse.m; path = Sources/AppAuthCore/OIDTokenResponse.m; sourceTree = "<group>"; };
+		627D4F22E61D80826F59445A9717D57C /* OIDAuthState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthState.h; path = Sources/AppAuthCore/OIDAuthState.h; sourceTree = "<group>"; };
+		6439ADF74C1C233BDE887AEB62C54265 /* AppAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppAuth-dummy.m"; sourceTree = "<group>"; };
+		66AF6F7D8067B610096751EA3FA9B596 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m"; sourceTree = "<group>"; };
+		68C7D6E651C4724E18D3341C935FAC16 /* OIDEndSessionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDEndSessionRequest.h; path = Sources/AppAuthCore/OIDEndSessionRequest.h; sourceTree = "<group>"; };
+		69FE0FFF5F6F77537C5BA6948DA7BF07 /* OIDTokenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenRequest.m; path = Sources/AppAuthCore/OIDTokenRequest.m; sourceTree = "<group>"; };
+		6CF27DD93C72505AADDE99E3BEE46886 /* AppAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-umbrella.h"; sourceTree = "<group>"; };
+		719CF8DBDF84E62391446C51213436B0 /* OIDExternalUserAgentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentRequest.h; path = Sources/AppAuthCore/OIDExternalUserAgentRequest.h; sourceTree = "<group>"; };
+		75047ED7CAB6E2493FFA1146E68E630D /* OIDTokenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenRequest.h; path = Sources/AppAuthCore/OIDTokenRequest.h; sourceTree = "<group>"; };
+		762150D1A358B0D5D6615F6F2B18DC03 /* OIDClientMetadataParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDClientMetadataParameters.m; path = Sources/AppAuthCore/OIDClientMetadataParameters.m; sourceTree = "<group>"; };
+		77EB31668093DE2FF54C3F6D022DE08D /* OIDScopeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopeUtilities.h; path = Sources/AppAuthCore/OIDScopeUtilities.h; sourceTree = "<group>"; };
+		7F232A63C39EF62580FB234CF0AE9A60 /* OIDEndSessionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionResponse.m; path = Sources/AppAuthCore/OIDEndSessionResponse.m; sourceTree = "<group>"; };
+		82220C9ECE9256C9B7A115392FE610CC /* Pods-TMDBMovieApp-TMDBMovieAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-Info.plist"; sourceTree = "<group>"; };
+		8223C2D685A44F999305FF3C99F89F75 /* OIDResponseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDResponseTypes.h; path = Sources/AppAuthCore/OIDResponseTypes.h; sourceTree = "<group>"; };
+		82BFDCA59F5B4F9014686F0005960B0C /* Pods-TMDBMovieApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMDBMovieApp-umbrella.h"; sourceTree = "<group>"; };
+		835EA35E7D3784E19EE31C0E4B79CF43 /* Pods-TMDBMovieAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMDBMovieAppTests.modulemap"; sourceTree = "<group>"; };
+		852AE677862B1687B5DD0CCFA2097A54 /* OIDFieldMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDFieldMapping.m; path = Sources/AppAuthCore/OIDFieldMapping.m; sourceTree = "<group>"; };
+		882507D1945F9E73029BA7C6F2E7ACC0 /* OIDEndSessionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDEndSessionResponse.h; path = Sources/AppAuthCore/OIDEndSessionResponse.h; sourceTree = "<group>"; };
+		8AB1C03985259FDD4056450C8E28E7A1 /* OIDURLQueryComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLQueryComponent.h; path = Sources/AppAuthCore/OIDURLQueryComponent.h; sourceTree = "<group>"; };
+		8C118EDBB839079BE70CAA84EBDA6CB1 /* OIDClientMetadataParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDClientMetadataParameters.h; path = Sources/AppAuthCore/OIDClientMetadataParameters.h; sourceTree = "<group>"; };
+		8C354CD71979EE275EEF1FB3E207ECE4 /* OIDAuthorizationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationResponse.m; path = Sources/AppAuthCore/OIDAuthorizationResponse.m; sourceTree = "<group>"; };
+		8C5C104B3BEC8851F5EA7A813BF469C2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TMDBMovieApp-TMDBMovieAppUITests"; path = Pods_TMDBMovieApp_TMDBMovieAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E44DFFB8D51BFC244B6CB374347F4EE /* OIDIDToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDIDToken.h; path = Sources/AppAuthCore/OIDIDToken.h; sourceTree = "<group>"; };
+		8F13A29DAC8660214583795F4025746F /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateErrorDelegate.h; path = Sources/AppAuthCore/OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
+		910031003F8FA17DA748561E8C847DF9 /* OIDExternalUserAgentCatalyst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentCatalyst.h; path = Sources/AppAuth/iOS/OIDExternalUserAgentCatalyst.h; sourceTree = "<group>"; };
+		97B7DE832ACB0D4388C2AF4806A6A861 /* OIDScopeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopeUtilities.m; path = Sources/AppAuthCore/OIDScopeUtilities.m; sourceTree = "<group>"; };
+		983CFE82B0C123BB63CBE9823D6F1361 /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+IOS.h"; path = "Sources/AppAuth/iOS/OIDAuthState+IOS.h"; sourceTree = "<group>"; };
+		9CAD9CEEA03C1418BB62006AE4828F3D /* OIDAuthState+IOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthState+IOS.m"; path = "Sources/AppAuth/iOS/OIDAuthState+IOS.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBFAB17446D8E275196ACA861DEEDD4 /* OIDExternalUserAgentIOSCustomBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOSCustomBrowser.m; path = Sources/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m; sourceTree = "<group>"; };
+		A0E54244BAAE59192876314CC78153A5 /* Pods-TMDBMovieApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieApp-Info.plist"; sourceTree = "<group>"; };
+		A2B8A8234408C142E646C9C61607F333 /* AppAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppAuth.modulemap; sourceTree = "<group>"; };
+		A53F31B2BF4FB7197AB3278B779D71E9 /* OIDRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationResponse.m; path = Sources/AppAuthCore/OIDRegistrationResponse.m; sourceTree = "<group>"; };
+		A5EC2A65B4E448C4A73202C495805641 /* OIDDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDDefines.h; path = Sources/AppAuthCore/OIDDefines.h; sourceTree = "<group>"; };
+		A9DD9B992A45220F0C70330F4082A1BD /* OIDEndSessionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionRequest.m; path = Sources/AppAuthCore/OIDEndSessionRequest.m; sourceTree = "<group>"; };
+		AB4336E6C695CFA97A8B931033DAB89E /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Sources/AppAuthCore/OIDErrorUtilities.h; sourceTree = "<group>"; };
+		AB52B15B64EA6FE1AC60741EDF37FE97 /* OIDFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDFieldMapping.h; path = Sources/AppAuthCore/OIDFieldMapping.h; sourceTree = "<group>"; };
+		ABC9F1482602BCFD44C22504DBC22BAA /* OIDAuthorizationService+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthorizationService+IOS.h"; path = "Sources/AppAuth/iOS/OIDAuthorizationService+IOS.h"; sourceTree = "<group>"; };
+		AE4C2E819D5B20DB4CF967121CBF7304 /* AppAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.release.xcconfig; sourceTree = "<group>"; };
+		B56E3DD895B3970D981FCE061CC4D15A /* OIDExternalUserAgentIOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOS.h; path = Sources/AppAuth/iOS/OIDExternalUserAgentIOS.h; sourceTree = "<group>"; };
+		B9F034C389AB30459F8419DC11C702DE /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationRequest.m; path = Sources/AppAuthCore/OIDAuthorizationRequest.m; sourceTree = "<group>"; };
+		BBDFE606A6C2BFB7B02E049441293C86 /* OIDExternalUserAgentSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentSession.h; path = Sources/AppAuthCore/OIDExternalUserAgentSession.h; sourceTree = "<group>"; };
+		BE3C13A4F6C6B69CD9B0AFC2A59D2C81 /* Pods-TMDBMovieApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMDBMovieApp.modulemap"; sourceTree = "<group>"; };
+		BFED92890A15AB9BBD55BE331E84F080 /* Pods-TMDBMovieAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C165019AAF22137A8F1304E0C6B4B13F /* Pods-TMDBMovieAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMDBMovieAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2390FAEB2669F064224508FB58CE963 /* OIDAuthState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthState.m; path = Sources/AppAuthCore/OIDAuthState.m; sourceTree = "<group>"; };
+		C27E0A63BE0BAB3EF474F544EB110604 /* OIDTokenUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenUtilities.m; path = Sources/AppAuthCore/OIDTokenUtilities.m; sourceTree = "<group>"; };
+		C458A1DC7779937E5A9569C98F725B47 /* Pods-TMDBMovieAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TMDBMovieAppTests"; path = Pods_TMDBMovieAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55B1E4B6A9551B2EAA38CEB6EB586BB /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceDiscovery.m; path = Sources/AppAuthCore/OIDServiceDiscovery.m; sourceTree = "<group>"; };
+		C8F06135A97D71CA7E45D25290C30742 /* OIDExternalUserAgentIOSCustomBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOSCustomBrowser.h; path = Sources/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h; sourceTree = "<group>"; };
+		C94FFB54C4E3DBB110A533C442FB4AFF /* Pods-TMDBMovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C9621523ACC21211F483599D1853AA2F /* OIDServiceDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceDiscovery.h; path = Sources/AppAuthCore/OIDServiceDiscovery.h; sourceTree = "<group>"; };
+		C98BF15999171EFDCF9ED2C53E6BE320 /* OIDURLSessionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLSessionProvider.h; path = Sources/AppAuthCore/OIDURLSessionProvider.h; sourceTree = "<group>"; };
+		CA4A3983C46810F774BB717E584A28B5 /* OIDAuthorizationService+IOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthorizationService+IOS.m"; path = "Sources/AppAuth/iOS/OIDAuthorizationService+IOS.m"; sourceTree = "<group>"; };
+		CADFCF3E32BC296159B0E5EA3796A981 /* OIDGrantTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDGrantTypes.m; path = Sources/AppAuthCore/OIDGrantTypes.m; sourceTree = "<group>"; };
+		CAE68A8C4E983056548C173D44C79A0A /* AppAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-prefix.pch"; sourceTree = "<group>"; };
+		CFD9DB4A77E70B9486FE05E7A1C3058E /* Pods-TMDBMovieAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D38E48BF139593FCA59F1E7C50017E23 /* OIDError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDError.h; path = Sources/AppAuthCore/OIDError.h; sourceTree = "<group>"; };
+		D4CE2AC5CDD8A8D3AC63917C14BF3EA2 /* Pods-TMDBMovieApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D62D5AC99217229C7CA2E95BAD750C2C /* OIDExternalUserAgentCatalyst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentCatalyst.m; path = Sources/AppAuth/iOS/OIDExternalUserAgentCatalyst.m; sourceTree = "<group>"; };
+		D994EE5EB78A1C346F9A9292715EBD2A /* Pods-TMDBMovieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA2B9374CEAC3CCFE03F1FCD8F1EF049 /* Pods-TMDBMovieApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMDBMovieApp-frameworks.sh"; sourceTree = "<group>"; };
+		DC7797976227CA6BC65DC6DF2F9B34B1 /* OIDURLSessionProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLSessionProvider.m; path = Sources/AppAuthCore/OIDURLSessionProvider.m; sourceTree = "<group>"; };
+		E045D8CC0292D6DAF114066FE95D850A /* OIDRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationRequest.m; path = Sources/AppAuthCore/OIDRegistrationRequest.m; sourceTree = "<group>"; };
+		E10E5BEA6EE698C72A9551E72D75FD3D /* Pods-TMDBMovieApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMDBMovieApp-dummy.m"; sourceTree = "<group>"; };
+		E269DCD30941873481B25930CC79CAD2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2705978D3DE7D93053A736D21E57FD1 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3439A3D524AAD4FB5F830D252FA3044 /* Pods-TMDBMovieAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3DA4813563D1D9F6079A2DAF2ED0889 /* Pods-TMDBMovieApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMDBMovieApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBA83EF371B9E4BB0DDAA0649A9F30A3 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests.modulemap"; sourceTree = "<group>"; };
+		ED0FFC38735F5FFF25961A25072851A2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMDBMovieApp-TMDBMovieAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE8421145E87635335167C9C19DB47E4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/AppAuthCore/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EF9852680BCD6EC8B15F622B5B92A838 /* AppAuth-AppAuthCore_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppAuth-AppAuthCore_Privacy"; path = AppAuthCore_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEA918E89A2A0E96065408A8C5C6097 /* OIDAuthorizationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationRequest.h; path = Sources/AppAuthCore/OIDAuthorizationRequest.h; sourceTree = "<group>"; };
+		F13EF57555CF631E3A2254554B1589EF /* OIDAuthorizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationService.m; path = Sources/AppAuthCore/OIDAuthorizationService.m; sourceTree = "<group>"; };
+		F196B54F95BF1F366B11A5B6BA4FE501 /* OIDGrantTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDGrantTypes.h; path = Sources/AppAuthCore/OIDGrantTypes.h; sourceTree = "<group>"; };
+		F2CC2EF07E601DA48A566AD8B180D8BE /* OIDScopes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopes.m; path = Sources/AppAuthCore/OIDScopes.m; sourceTree = "<group>"; };
+		F7E99653D3B1AE72CA9EEC0B075786A4 /* OIDExternalUserAgentIOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOS.m; path = Sources/AppAuth/iOS/OIDExternalUserAgentIOS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3B410820421DA0C9294D4A1FC5E628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F688454CB7276BA6C33CF1074914C9B /* Foundation.framework in Frameworks */,
+				BF6A69C9CFE70691FF16634EAEA76564 /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1BC9522BDBAB2586E223FD73943E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC9FF85CE538B875450ED6CA8D65B2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD497E9D5E1B781C341E15602B330EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B4345ECBB0C08B3FE0685563EB3F3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21EA5D66902DE57A0B3CB9F8C870693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258A5AD0A2FCFF7BD0B7DC984AF1CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C295EE22102BBC40B0F7DE1C0A305039 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC98E24FD245DA7505C9B33D5BE3D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF68252933053F5503E0A474CEF6DC8 /* Pods-TMDBMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C13A4F6C6B69CD9B0AFC2A59D2C81 /* Pods-TMDBMovieApp.modulemap */,
+				E3DA4813563D1D9F6079A2DAF2ED0889 /* Pods-TMDBMovieApp-acknowledgements.markdown */,
+				D4CE2AC5CDD8A8D3AC63917C14BF3EA2 /* Pods-TMDBMovieApp-acknowledgements.plist */,
+				E10E5BEA6EE698C72A9551E72D75FD3D /* Pods-TMDBMovieApp-dummy.m */,
+				DA2B9374CEAC3CCFE03F1FCD8F1EF049 /* Pods-TMDBMovieApp-frameworks.sh */,
+				A0E54244BAAE59192876314CC78153A5 /* Pods-TMDBMovieApp-Info.plist */,
+				82BFDCA59F5B4F9014686F0005960B0C /* Pods-TMDBMovieApp-umbrella.h */,
+				C94FFB54C4E3DBB110A533C442FB4AFF /* Pods-TMDBMovieApp.debug.xcconfig */,
+				D994EE5EB78A1C346F9A9292715EBD2A /* Pods-TMDBMovieApp.release.xcconfig */,
+			);
+			name = "Pods-TMDBMovieApp";
+			path = "Target Support Files/Pods-TMDBMovieApp";
+			sourceTree = "<group>";
+		};
+		460FE904C2186727B13DAF8E29F72BA6 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA83EF371B9E4BB0DDAA0649A9F30A3 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.modulemap */,
+				E2705978D3DE7D93053A736D21E57FD1 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.markdown */,
+				E269DCD30941873481B25930CC79CAD2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-acknowledgements.plist */,
+				66AF6F7D8067B610096751EA3FA9B596 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m */,
+				399C5A7FD3B5DEF1642B43C9B2AF162C /* Pods-TMDBMovieApp-TMDBMovieAppUITests-frameworks.sh */,
+				82220C9ECE9256C9B7A115392FE610CC /* Pods-TMDBMovieApp-TMDBMovieAppUITests-Info.plist */,
+				43AC26BF35832E927551ABC0F717A735 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h */,
+				1F749AC31188394A3A442EAC7522E1E9 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.debug.xcconfig */,
+				ED0FFC38735F5FFF25961A25072851A2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.release.xcconfig */,
+			);
+			name = "Pods-TMDBMovieApp-TMDBMovieAppUITests";
+			path = "Target Support Files/Pods-TMDBMovieApp-TMDBMovieAppUITests";
+			sourceTree = "<group>";
+		};
+		5B16F2E290267706160CE602FAE8A0BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0345AA8036A6AD0C5022C3E17833513 /* AppAuth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71CCB330CDEDA9BC0D8F01722DEE64B9 /* ExternalUserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				2397E2D083B93F704E1F075DDC6753D6 /* AppAuth.h */,
+				ABC9F1482602BCFD44C22504DBC22BAA /* OIDAuthorizationService+IOS.h */,
+				CA4A3983C46810F774BB717E584A28B5 /* OIDAuthorizationService+IOS.m */,
+				983CFE82B0C123BB63CBE9823D6F1361 /* OIDAuthState+IOS.h */,
+				9CAD9CEEA03C1418BB62006AE4828F3D /* OIDAuthState+IOS.m */,
+				910031003F8FA17DA748561E8C847DF9 /* OIDExternalUserAgentCatalyst.h */,
+				D62D5AC99217229C7CA2E95BAD750C2C /* OIDExternalUserAgentCatalyst.m */,
+				B56E3DD895B3970D981FCE061CC4D15A /* OIDExternalUserAgentIOS.h */,
+				F7E99653D3B1AE72CA9EEC0B075786A4 /* OIDExternalUserAgentIOS.m */,
+				C8F06135A97D71CA7E45D25290C30742 /* OIDExternalUserAgentIOSCustomBrowser.h */,
+				9DBFAB17446D8E275196ACA861DEEDD4 /* OIDExternalUserAgentIOSCustomBrowser.m */,
+			);
+			name = ExternalUserAgent;
+			sourceTree = "<group>";
+		};
+		935B0D0657972542B252D6F526CA8557 /* Pods-TMDBMovieAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				835EA35E7D3784E19EE31C0E4B79CF43 /* Pods-TMDBMovieAppTests.modulemap */,
+				C165019AAF22137A8F1304E0C6B4B13F /* Pods-TMDBMovieAppTests-acknowledgements.markdown */,
+				BFED92890A15AB9BBD55BE331E84F080 /* Pods-TMDBMovieAppTests-acknowledgements.plist */,
+				5C40F0932A2BCB5FFD65EB598F8DA856 /* Pods-TMDBMovieAppTests-dummy.m */,
+				5C43C9ADC4369BE087C5BD5FC5DEEBD2 /* Pods-TMDBMovieAppTests-Info.plist */,
+				5F51AFCA669853E41F6CD7D11AB53B0E /* Pods-TMDBMovieAppTests-umbrella.h */,
+				E3439A3D524AAD4FB5F830D252FA3044 /* Pods-TMDBMovieAppTests.debug.xcconfig */,
+				CFD9DB4A77E70B9486FE05E7A1C3058E /* Pods-TMDBMovieAppTests.release.xcconfig */,
+			);
+			name = "Pods-TMDBMovieAppTests";
+			path = "Target Support Files/Pods-TMDBMovieAppTests";
+			sourceTree = "<group>";
+		};
+		A4DC98E24FD245DA7505C9B33D5BE3D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */,
+				1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A60992BEB2F03F560A3C5F35A62C70A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A8234408C142E646C9C61607F333 /* AppAuth.modulemap */,
+				6439ADF74C1C233BDE887AEB62C54265 /* AppAuth-dummy.m */,
+				1C9C8D718F0E53F6C71CCB86F68B48FE /* AppAuth-Info.plist */,
+				CAE68A8C4E983056548C173D44C79A0A /* AppAuth-prefix.pch */,
+				6CF27DD93C72505AADDE99E3BEE46886 /* AppAuth-umbrella.h */,
+				1E0494048FBCB7784C8028DA20F73F6E /* AppAuth.debug.xcconfig */,
+				AE4C2E819D5B20DB4CF967121CBF7304 /* AppAuth.release.xcconfig */,
+				099EA2D97C28CE743820F4C347DE4D67 /* ResourceBundle-AppAuthCore_Privacy-AppAuth-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppAuth";
+			sourceTree = "<group>";
+		};
+		B2175035303F20BF521798CA10297818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE8421145E87635335167C9C19DB47E4 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0812D0E383589283057E5E7D83B7121 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0B432F390D09590A0CC39F7C19081BE1 /* AppAuthCore.h */,
+				EFEA918E89A2A0E96065408A8C5C6097 /* OIDAuthorizationRequest.h */,
+				B9F034C389AB30459F8419DC11C702DE /* OIDAuthorizationRequest.m */,
+				042FBEF68548E8D1BEA6EAB8B207197A /* OIDAuthorizationResponse.h */,
+				8C354CD71979EE275EEF1FB3E207ECE4 /* OIDAuthorizationResponse.m */,
+				106D754A6662441B75F06E27565F646E /* OIDAuthorizationService.h */,
+				F13EF57555CF631E3A2254554B1589EF /* OIDAuthorizationService.m */,
+				627D4F22E61D80826F59445A9717D57C /* OIDAuthState.h */,
+				C2390FAEB2669F064224508FB58CE963 /* OIDAuthState.m */,
+				2F4F5BE01A47C89A12990D4390A8BEEE /* OIDAuthStateChangeDelegate.h */,
+				8F13A29DAC8660214583795F4025746F /* OIDAuthStateErrorDelegate.h */,
+				8C118EDBB839079BE70CAA84EBDA6CB1 /* OIDClientMetadataParameters.h */,
+				762150D1A358B0D5D6615F6F2B18DC03 /* OIDClientMetadataParameters.m */,
+				A5EC2A65B4E448C4A73202C495805641 /* OIDDefines.h */,
+				68C7D6E651C4724E18D3341C935FAC16 /* OIDEndSessionRequest.h */,
+				A9DD9B992A45220F0C70330F4082A1BD /* OIDEndSessionRequest.m */,
+				882507D1945F9E73029BA7C6F2E7ACC0 /* OIDEndSessionResponse.h */,
+				7F232A63C39EF62580FB234CF0AE9A60 /* OIDEndSessionResponse.m */,
+				D38E48BF139593FCA59F1E7C50017E23 /* OIDError.h */,
+				0555135A309AD3FFBED3429918D6623D /* OIDError.m */,
+				AB4336E6C695CFA97A8B931033DAB89E /* OIDErrorUtilities.h */,
+				3B71A951839C2B17CF2B2CFC2BFF1B3B /* OIDErrorUtilities.m */,
+				374BE34709A96E889A3C7CC40D9F473B /* OIDExternalUserAgent.h */,
+				719CF8DBDF84E62391446C51213436B0 /* OIDExternalUserAgentRequest.h */,
+				BBDFE606A6C2BFB7B02E049441293C86 /* OIDExternalUserAgentSession.h */,
+				AB52B15B64EA6FE1AC60741EDF37FE97 /* OIDFieldMapping.h */,
+				852AE677862B1687B5DD0CCFA2097A54 /* OIDFieldMapping.m */,
+				F196B54F95BF1F366B11A5B6BA4FE501 /* OIDGrantTypes.h */,
+				CADFCF3E32BC296159B0E5EA3796A981 /* OIDGrantTypes.m */,
+				8E44DFFB8D51BFC244B6CB374347F4EE /* OIDIDToken.h */,
+				569D560A6DE6D01729385B3DFA2B2B6C /* OIDIDToken.m */,
+				5F0FCA4D2D621AD2D70B4FC306E55547 /* OIDRegistrationRequest.h */,
+				E045D8CC0292D6DAF114066FE95D850A /* OIDRegistrationRequest.m */,
+				565626E08807E15DA6EAD42D083CA8E8 /* OIDRegistrationResponse.h */,
+				A53F31B2BF4FB7197AB3278B779D71E9 /* OIDRegistrationResponse.m */,
+				8223C2D685A44F999305FF3C99F89F75 /* OIDResponseTypes.h */,
+				0AF6C36D80CC68A1486FC440FAD5BA40 /* OIDResponseTypes.m */,
+				54D5E29F9D8327B2D13BD9835FB08AEE /* OIDScopes.h */,
+				F2CC2EF07E601DA48A566AD8B180D8BE /* OIDScopes.m */,
+				77EB31668093DE2FF54C3F6D022DE08D /* OIDScopeUtilities.h */,
+				97B7DE832ACB0D4388C2AF4806A6A861 /* OIDScopeUtilities.m */,
+				3189926983B5029EE5AE253D003465B4 /* OIDServiceConfiguration.h */,
+				201AAD7AD6D9533DD4AD080CC278A29C /* OIDServiceConfiguration.m */,
+				C9621523ACC21211F483599D1853AA2F /* OIDServiceDiscovery.h */,
+				C55B1E4B6A9551B2EAA38CEB6EB586BB /* OIDServiceDiscovery.m */,
+				75047ED7CAB6E2493FFA1146E68E630D /* OIDTokenRequest.h */,
+				69FE0FFF5F6F77537C5BA6948DA7BF07 /* OIDTokenRequest.m */,
+				55878DAC63DE5577CEA1AEB446CF54E6 /* OIDTokenResponse.h */,
+				614C71E55D6D884D77A8986F936FDE5F /* OIDTokenResponse.m */,
+				09DB89C9D202D4CA598A0BD6D6D84E94 /* OIDTokenUtilities.h */,
+				C27E0A63BE0BAB3EF474F544EB110604 /* OIDTokenUtilities.m */,
+				8AB1C03985259FDD4056450C8E28E7A1 /* OIDURLQueryComponent.h */,
+				02B3F79337CBFFF83257E7B00B771DA5 /* OIDURLQueryComponent.m */,
+				C98BF15999171EFDCF9ED2C53E6BE320 /* OIDURLSessionProvider.h */,
+				DC7797976227CA6BC65DC6DF2F9B34B1 /* OIDURLSessionProvider.m */,
+				B2175035303F20BF521798CA10297818 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5B16F2E290267706160CE602FAE8A0BD /* Pods */,
+				EC01CE0BE4FCC9C335B3203019F489DF /* Products */,
+				E926B18FF7C57B9097FA11878A4FEB0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0345AA8036A6AD0C5022C3E17833513 /* AppAuth */ = {
+			isa = PBXGroup;
+			children = (
+				C0812D0E383589283057E5E7D83B7121 /* Core */,
+				71CCB330CDEDA9BC0D8F01722DEE64B9 /* ExternalUserAgent */,
+				A60992BEB2F03F560A3C5F35A62C70A3 /* Support Files */,
+			);
+			path = AppAuth;
+			sourceTree = "<group>";
+		};
+		E926B18FF7C57B9097FA11878A4FEB0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF68252933053F5503E0A474CEF6DC8 /* Pods-TMDBMovieApp */,
+				460FE904C2186727B13DAF8E29F72BA6 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */,
+				935B0D0657972542B252D6F526CA8557 /* Pods-TMDBMovieAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC01CE0BE4FCC9C335B3203019F489DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */,
+				EF9852680BCD6EC8B15F622B5B92A838 /* AppAuth-AppAuthCore_Privacy */,
+				4AD012B4BB7F3B66D83C62FEAE72F981 /* Pods-TMDBMovieApp */,
+				8C5C104B3BEC8851F5EA7A813BF469C2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */,
+				C458A1DC7779937E5A9569C98F725B47 /* Pods-TMDBMovieAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48A1F843D5BF71673B716DD188210E92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9901565B4BA3E2BAB551C8FF633796CD /* AppAuth.h in Headers */,
+				98940975CA7FD0211195CFFFA75F21B2 /* AppAuth-umbrella.h in Headers */,
+				4C584CA7D6319D47EB3624BE484676C1 /* AppAuthCore.h in Headers */,
+				46C324522B26025BB8E58C9861A218CD /* OIDAuthorizationRequest.h in Headers */,
+				702F4B2C0D18B950EB3E747828B5FC50 /* OIDAuthorizationResponse.h in Headers */,
+				329FD409C5A67DC3BE9E28E93E7A55DB /* OIDAuthorizationService.h in Headers */,
+				32CE2ED8B8441A3CB8A513C6A1505D89 /* OIDAuthorizationService+IOS.h in Headers */,
+				8E06A2EB7E4BD5B4BCBB5049D0FFC9AD /* OIDAuthState.h in Headers */,
+				ECA8B13BAE382716E1BA8CB8E373378B /* OIDAuthState+IOS.h in Headers */,
+				5AD7C81F358865EEB5A3A226A45A4FEF /* OIDAuthStateChangeDelegate.h in Headers */,
+				EC9C12890CF3006B2B6D2AB2BC26D057 /* OIDAuthStateErrorDelegate.h in Headers */,
+				B8E22310EBE9C3AF5AD9938DFB2D8E89 /* OIDClientMetadataParameters.h in Headers */,
+				474EC8A6B61E91F8E40BD14A785A8685 /* OIDDefines.h in Headers */,
+				4A586ADA41B07B9F6241DE1BF8DCE24C /* OIDEndSessionRequest.h in Headers */,
+				0054C0C639E0A5E5C3CF94F28C53F29A /* OIDEndSessionResponse.h in Headers */,
+				BDBBC3336AB93E577E626491FE566E8F /* OIDError.h in Headers */,
+				A610D8E99FAA24198282686004E0F638 /* OIDErrorUtilities.h in Headers */,
+				2646A02B776E232E79831F093663E6C7 /* OIDExternalUserAgent.h in Headers */,
+				73C5B3DD8FE06281A3B2EB42A592FBCD /* OIDExternalUserAgentCatalyst.h in Headers */,
+				F4BB88D2C1266429CB931BA9F2FC2935 /* OIDExternalUserAgentIOS.h in Headers */,
+				5A192D64055F796420A9D63926A273E0 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */,
+				8404A03AF819708FE5CF8DB7C5AD263F /* OIDExternalUserAgentRequest.h in Headers */,
+				B5E25696BEFD5775AA9BFF956EF4458A /* OIDExternalUserAgentSession.h in Headers */,
+				B5A0A8E6B3749281B9CD90B225E244A6 /* OIDFieldMapping.h in Headers */,
+				C611628DF90D56F44C10C436416F37F7 /* OIDGrantTypes.h in Headers */,
+				29241B2BB72959C159BDCEE52B6B8805 /* OIDIDToken.h in Headers */,
+				BDBA1A77B058C37101F19BD48BA7A5D1 /* OIDRegistrationRequest.h in Headers */,
+				958EAE1E90C473F5E1A01701F9602CA3 /* OIDRegistrationResponse.h in Headers */,
+				287DDAF293B5DD940AB04DF7842B5A7C /* OIDResponseTypes.h in Headers */,
+				BF219DF08B3E37A143C9E3E5D46360AA /* OIDScopes.h in Headers */,
+				2DBF25B31DD495FF81FC90CEBAD80176 /* OIDScopeUtilities.h in Headers */,
+				D5BC3548DB4A2967F9039DDBF119A98A /* OIDServiceConfiguration.h in Headers */,
+				3694CE494B6DF0840A1B6FE8DC14F24F /* OIDServiceDiscovery.h in Headers */,
+				702FE7B20130585BD2436525E870DA92 /* OIDTokenRequest.h in Headers */,
+				909DDE0E831D6401C3C6C4770EE11BE9 /* OIDTokenResponse.h in Headers */,
+				BDAE22D0BB9B9948B20321702ED3B981 /* OIDTokenUtilities.h in Headers */,
+				A6997288D5C505CE79297B7A4F817A67 /* OIDURLQueryComponent.h in Headers */,
+				547E9E44086F1D7FA62C4E6A2F065F44 /* OIDURLSessionProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643EA59EB085757D7C1A2AE92D8F86F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A5F986314385075C3173E9FDEFF49B /* Pods-TMDBMovieAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8106B57ED067F55955EC72C465D1E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA54D5FBE28E5FD4B5C37F5B0537E81B /* Pods-TMDBMovieApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F5053FA718207869A99AA3CFA1119E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C021158A24D7CF95134A80F978F807A7 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B932EC9659D505694902B50F4EB3D8B /* AppAuth-AppAuthCore_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86199AADA4801788AE1B8F0CAF0C4AF7 /* Build configuration list for PBXNativeTarget "AppAuth-AppAuthCore_Privacy" */;
+			buildPhases = (
+				24353940B1C56CA8EDF120CFAA33374A /* Sources */,
+				C21EA5D66902DE57A0B3CB9F8C870693 /* Frameworks */,
+				7F3ECE9AAA9CF0948F27FEFCF60068C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppAuth-AppAuthCore_Privacy";
+			productName = AppAuthCore_Privacy;
+			productReference = EF9852680BCD6EC8B15F622B5B92A838 /* AppAuth-AppAuthCore_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5C642AA10FB29936669CC269F42079C6 /* AppAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C952815B05E2FD5CA8BF5F76B5DE22B4 /* Build configuration list for PBXNativeTarget "AppAuth" */;
+			buildPhases = (
+				48A1F843D5BF71673B716DD188210E92 /* Headers */,
+				D7B0B74E609151DEDB19036413202AF8 /* Sources */,
+				2F3B410820421DA0C9294D4A1FC5E628 /* Frameworks */,
+				E64F294CDC02ED632C3E99F6BD64762B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				984FD53C5BE58A4932EBA39FFB24999D /* PBXTargetDependency */,
+			);
+			name = AppAuth;
+			productName = AppAuth;
+			productReference = 3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A13B2F6DB0D9A6C1728585B9E7B007CB /* Pods-TMDBMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E33F79B8976755675F20AE74D2F575D /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieApp" */;
+			buildPhases = (
+				BC8106B57ED067F55955EC72C465D1E2 /* Headers */,
+				51BEFCC1E684B6756A1501BEA71AA19B /* Sources */,
+				4B1BC9522BDBAB2586E223FD73943E32 /* Frameworks */,
+				DAFBC710889E0B5A9A414A713DF1D9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6101BDB81CFD88EB21A909D99C2E64D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TMDBMovieApp";
+			productName = Pods_TMDBMovieApp;
+			productReference = 4AD012B4BB7F3B66D83C62FEAE72F981 /* Pods-TMDBMovieApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD1DCAB270E6582B8DCE3B088D4AA2D8 /* Pods-TMDBMovieAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602B269A13EECF6CDB70C93CAA069F6C /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieAppTests" */;
+			buildPhases = (
+				643EA59EB085757D7C1A2AE92D8F86F9 /* Headers */,
+				F7980E5FE95BAAF6D623A2202E65121D /* Sources */,
+				BD497E9D5E1B781C341E15602B330EDB /* Frameworks */,
+				76B0781DCCF5A494E7DD2F4FE7E04FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E76B6D0A926B87B2FDC75C4FEDE942 /* PBXTargetDependency */,
+			);
+			name = "Pods-TMDBMovieAppTests";
+			productName = Pods_TMDBMovieAppTests;
+			productReference = C458A1DC7779937E5A9569C98F725B47 /* Pods-TMDBMovieAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF071D3B2ECFD0DD6F92182433059B01 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D07AD1726879CF43BA8FEF2694BC70 /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieApp-TMDBMovieAppUITests" */;
+			buildPhases = (
+				F6F5053FA718207869A99AA3CFA1119E /* Headers */,
+				C3F107A0DDC0525B261AD0934CCB19F3 /* Sources */,
+				D258A5AD0A2FCFF7BD0B7DC984AF1CAC /* Frameworks */,
+				563363E4F8A0C612C1C0DABACBFAD033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B28B54B3044C1C2FE141CC5F6C6DE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TMDBMovieApp-TMDBMovieAppUITests";
+			productName = Pods_TMDBMovieApp_TMDBMovieAppUITests;
+			productReference = 8C5C104B3BEC8851F5EA7A813BF469C2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC01CE0BE4FCC9C335B3203019F489DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C642AA10FB29936669CC269F42079C6 /* AppAuth */,
+				3B932EC9659D505694902B50F4EB3D8B /* AppAuth-AppAuthCore_Privacy */,
+				A13B2F6DB0D9A6C1728585B9E7B007CB /* Pods-TMDBMovieApp */,
+				DF071D3B2ECFD0DD6F92182433059B01 /* Pods-TMDBMovieApp-TMDBMovieAppUITests */,
+				BD1DCAB270E6582B8DCE3B088D4AA2D8 /* Pods-TMDBMovieAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563363E4F8A0C612C1C0DABACBFAD033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0781DCCF5A494E7DD2F4FE7E04FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3ECE9AAA9CF0948F27FEFCF60068C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71083C54CF7C774414F5C554AE23506 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFBC710889E0B5A9A414A713DF1D9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64F294CDC02ED632C3E99F6BD64762B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310AEC030BEECE38DEB35C48C8238F70 /* AppAuth-AppAuthCore_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24353940B1C56CA8EDF120CFAA33374A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BEFCC1E684B6756A1501BEA71AA19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D6DA273CBE1BE868548CB56035F5B9 /* Pods-TMDBMovieApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F107A0DDC0525B261AD0934CCB19F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8457CE5E8A20E440D7E31CA82E76C421 /* Pods-TMDBMovieApp-TMDBMovieAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B0B74E609151DEDB19036413202AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB55D390D6476E0C9CFA02D3B9BF21C /* AppAuth-dummy.m in Sources */,
+				BA3458738E257A4AA757F97E35A11692 /* OIDAuthorizationRequest.m in Sources */,
+				5F1F7BF5F9247F778ABC0E49B4E5EBDD /* OIDAuthorizationResponse.m in Sources */,
+				D352707AE0F20050D29683BB9E5924AB /* OIDAuthorizationService.m in Sources */,
+				D262BA2558D719F3B92AC1B1976C0F65 /* OIDAuthorizationService+IOS.m in Sources */,
+				0BF4B878E667471B43794AA8ABBAC231 /* OIDAuthState.m in Sources */,
+				BE74A1514F19FA40C8ECF1F46627FAC3 /* OIDAuthState+IOS.m in Sources */,
+				F168E13393F0BD81E6C12CCFEE2B2B98 /* OIDClientMetadataParameters.m in Sources */,
+				A7779F3FD47C40C24EC7A5DEB75C1DA8 /* OIDEndSessionRequest.m in Sources */,
+				5C59E4A1C457D819CD84164DF9E3C811 /* OIDEndSessionResponse.m in Sources */,
+				74FABF1F431E2FA7124F2C443312F1AE /* OIDError.m in Sources */,
+				3240253830E367917124024B7924D1E0 /* OIDErrorUtilities.m in Sources */,
+				8C99055F42D86804508A31368C303D29 /* OIDExternalUserAgentCatalyst.m in Sources */,
+				C8CCF5780C34A7F5ADFB6BBBCCECC656 /* OIDExternalUserAgentIOS.m in Sources */,
+				B5CB741980C27B0C8BF6941EE9987C19 /* OIDExternalUserAgentIOSCustomBrowser.m in Sources */,
+				82D0A19E4FB75269F7632C4FC0E8BE34 /* OIDFieldMapping.m in Sources */,
+				F3308EA7703DE079DFEF9716B4D56CB5 /* OIDGrantTypes.m in Sources */,
+				CD2FE7EC8EDDDC584FE423D0FC3B5466 /* OIDIDToken.m in Sources */,
+				4CD037BE47B7454C55C3E8EF90D0552D /* OIDRegistrationRequest.m in Sources */,
+				468E30F6129499D7C030B5DE450120ED /* OIDRegistrationResponse.m in Sources */,
+				C8B30D0D933DDCDCC7936AD7D28B5AE0 /* OIDResponseTypes.m in Sources */,
+				F61F3D9A37DE717CF85B4EDB2C96DB9A /* OIDScopes.m in Sources */,
+				B3DD978DD1222E83B7DCB6FC34C82C98 /* OIDScopeUtilities.m in Sources */,
+				5EDED647312757265F8EC47BEB25479D /* OIDServiceConfiguration.m in Sources */,
+				A5854DF23EF93721C5C9C0CE75EBF873 /* OIDServiceDiscovery.m in Sources */,
+				1BDA095FE7DE194DFF9A37775B65CD6D /* OIDTokenRequest.m in Sources */,
+				6EFF8AACDD8E9635714B8152E2A9A92C /* OIDTokenResponse.m in Sources */,
+				7173971F1C14491B8E5A7BE056995595 /* OIDTokenUtilities.m in Sources */,
+				17ADED2A03C1221197B3C3F7226C9D9A /* OIDURLQueryComponent.m in Sources */,
+				7E692CC622B3DD6DAFC2F24E0C8F26E2 /* OIDURLSessionProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7980E5FE95BAAF6D623A2202E65121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D84A083CA06130F3654A9B63552FAE /* Pods-TMDBMovieAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6101BDB81CFD88EB21A909D99C2E64D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppAuth;
+			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
+			targetProxy = B858D9E19BDCD4A1CDFBDDC7F5654F1F /* PBXContainerItemProxy */;
+		};
+		71B28B54B3044C1C2FE141CC5F6C6DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppAuth;
+			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
+			targetProxy = 015AB7A76869D3C902BE442DA3D6DF19 /* PBXContainerItemProxy */;
+		};
+		984FD53C5BE58A4932EBA39FFB24999D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppAuth-AppAuthCore_Privacy";
+			target = 3B932EC9659D505694902B50F4EB3D8B /* AppAuth-AppAuthCore_Privacy */;
+			targetProxy = F93A37CA4F6D141998994F095D0195AD /* PBXContainerItemProxy */;
+		};
+		E1E76B6D0A926B87B2FDC75C4FEDE942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TMDBMovieApp";
+			target = A13B2F6DB0D9A6C1728585B9E7B007CB /* Pods-TMDBMovieApp */;
+			targetProxy = 689D1A732F75390A70677CAE3261ABC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AC7F6927F83F82D9AACC27E53FE884A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D994EE5EB78A1C346F9A9292715EBD2A /* Pods-TMDBMovieApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieApp/Pods-TMDBMovieApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieApp/Pods-TMDBMovieApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1379B58B25C1957760A7A78BA0A6528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F749AC31188394A3A442EAC7522E1E9 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieApp-TMDBMovieAppUITests/Pods-TMDBMovieApp-TMDBMovieAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieApp-TMDBMovieAppUITests/Pods-TMDBMovieApp-TMDBMovieAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		474487FE69FFF60CD83E0C0875E3492E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3439A3D524AAD4FB5F830D252FA3044 /* Pods-TMDBMovieAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieAppTests/Pods-TMDBMovieAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieAppTests/Pods-TMDBMovieAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80D417042A9C7B6138947B4C40F19BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4C2E819D5B20DB4CF967121CBF7304 /* AppAuth.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppAuth";
+				IBSC_MODULE = AppAuth;
+				INFOPLIST_FILE = "Target Support Files/AppAuth/ResourceBundle-AppAuthCore_Privacy-AppAuth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AppAuthCore_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C936BA1047A281A459478C5FDBA2D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0494048FBCB7784C8028DA20F73F6E /* AppAuth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E9697527E2DAE218F48D84FEC2CA23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD9DB4A77E70B9486FE05E7A1C3058E /* Pods-TMDBMovieAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieAppTests/Pods-TMDBMovieAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieAppTests/Pods-TMDBMovieAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1871827BF2D4E02639AF9131B18709B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0494048FBCB7784C8028DA20F73F6E /* AppAuth.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppAuth";
+				IBSC_MODULE = AppAuth;
+				INFOPLIST_FILE = "Target Support Files/AppAuth/ResourceBundle-AppAuthCore_Privacy-AppAuth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AppAuthCore_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B60BAD2A060D5ED5E89542031EE1D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4C2E819D5B20DB4CF967121CBF7304 /* AppAuth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C73A89C3C80116B21829F3FBFAD11360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94FFB54C4E3DBB110A533C442FB4AFF /* Pods-TMDBMovieApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieApp/Pods-TMDBMovieApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieApp/Pods-TMDBMovieApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF085BCD883E6325A0063BD499FE212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0FFC38735F5FFF25961A25072851A2 /* Pods-TMDBMovieApp-TMDBMovieAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TMDBMovieApp-TMDBMovieAppUITests/Pods-TMDBMovieApp-TMDBMovieAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMDBMovieApp-TMDBMovieAppUITests/Pods-TMDBMovieApp-TMDBMovieAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D07AD1726879CF43BA8FEF2694BC70 /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieApp-TMDBMovieAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1379B58B25C1957760A7A78BA0A6528E /* Debug */,
+				DF085BCD883E6325A0063BD499FE212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602B269A13EECF6CDB70C93CAA069F6C /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474487FE69FFF60CD83E0C0875E3492E /* Debug */,
+				8E9697527E2DAE218F48D84FEC2CA23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86199AADA4801788AE1B8F0CAF0C4AF7 /* Build configuration list for PBXNativeTarget "AppAuth-AppAuthCore_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1871827BF2D4E02639AF9131B18709B /* Debug */,
+				80D417042A9C7B6138947B4C40F19BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E33F79B8976755675F20AE74D2F575D /* Build configuration list for PBXNativeTarget "Pods-TMDBMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73A89C3C80116B21829F3FBFAD11360 /* Debug */,
+				0AC7F6927F83F82D9AACC27E53FE884A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C952815B05E2FD5CA8BF5F76B5DE22B4 /* Build configuration list for PBXNativeTarget "AppAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C936BA1047A281A459478C5FDBA2D29 /* Debug */,
+				B60BAD2A060D5ED5E89542031EE1D76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
