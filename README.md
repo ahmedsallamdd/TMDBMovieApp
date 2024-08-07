@@ -36,10 +36,19 @@ Selected Challenges
 * Conflict Resolution Strategies: Ensured duplication isn't there every time a new item saved.
 
 Installation
-1. Clone the repository:  git clone <repository_url>
-cd TMDBMovieApp   
-2. Install dependencies:  pod install   
-3. Open the project:  open TMDBMovieApp.xcworkspace
+1. Clone the repository:
+```
+git clone https://github.com/ahmedsallamdd/TMDBMovieApp
+cd TMDBMovieApp
+```
+2. Install dependencies:
+```
+pod install
+```
+3. Open the project:
+```
+open TMDBMovieApp.xcworkspace
+```
 
 Usage
 1. Login: Open the app and log in using your Google account.
