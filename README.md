@@ -1,9 +1,10 @@
-TMDBMovieApp iOS App README
+###[TMDBMovieApp iOS App]
 
-Introduction
+##[Introduction]
 TMDBMovieApp is a mobile application built to showcase movies and TV shows using TMDB APIs. The app features a login screen, home screen displaying different media, and a details screen for selected movies or shows, with the ability to add favorites. The app implements secure authentication using OAuth 2.0 protocol and supports offline functionality through data caching.
 
-Features
+##[Features]
+
 * Authentication: OAuth 2.0 with Google as the provider using the AppAuth pod.
 * Home Screen: Displays movies and TV shows fetched from TMDB APIs.
 * Details Screen: Shows detailed information about selected movies or shows.
@@ -11,7 +12,7 @@ Features
 * Offline Support: Caches API responses using CoreData for offline access.
 * Biometric Authentication: Uses biometrics for quick login if the user is already authenticated.
 
-Design Patterns and Architecture
+##[Design Patterns and Architecture]
 The application follows the MVVM design pattern with elements of Clean architecture:
 * ViewController: Manages the UI and user interactions.
 * ViewModel: Provides data and logic to the ViewController.
@@ -19,7 +20,7 @@ The application follows the MVVM design pattern with elements of Clean architect
 * Network Layer: Manages network requests using URLSession.
 * CoreData: Used for caching and offline support.
 
-Selected Challenges
+##[Selected Challenges]
 1. Advanced Networking and Data Handling
 * Scalable Networking Layer: Implemented a fault-tolerant networking layer to handle concurrent connections and network disruptions.
 * Custom Data Caching and Synchronization: Developed caching strategies based on network conditions and device resources.
@@ -35,7 +36,7 @@ Selected Challenges
 * Adaptive Offline Synchronization: Implemented mechanisms to prioritize data sync based on user activity and network conditions.
 * Conflict Resolution Strategies: Ensured duplication isn't there every time a new item saved.
 
-Installation
+##[Installation]
 1. Clone the repository:
 ```
 git clone https://github.com/ahmedsallamdd/TMDBMovieApp
@@ -50,14 +51,14 @@ pod install
 open TMDBMovieApp.xcworkspace
 ```
 
-Usage
+##[Usage]
 1. Login: Open the app and log in using your Google account.
 2. Home Screen: Browse through the list of movies and TV shows.
 3. Details Screen: Tap on any movie or show to view its details.
 4. Add to Favorites: Tap the favorite button to add the item to your favorites list.
 5. Offline Mode: Access previously viewed movies or shows even without an internet connection.
 
-Conclusion
+##[Conclusion]
 TMDBMovieApp demonstrates advanced mobile development techniques, including secure authentication, robust networking, and offline support. The use of MVVM and Clean architecture ensures maintainable and scalable code. The application provides a seamless user experience with features like biometric authentication and adaptive data synchronization.
 Contact
 For any questions or support, please contact [ahmedsallamdd@gmail.com].
