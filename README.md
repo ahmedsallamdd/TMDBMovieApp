@@ -57,7 +57,5 @@ open TMDBMovieApp.xcworkspace
 4. Add to Favorites: Tap the favorite button to add the item to your favorites list.
 5. Offline Mode: Access previously viewed movies or shows even without an internet connection.
 
-## Conclusion
-TMDBMovieApp demonstrates advanced mobile development techniques, including secure authentication, robust networking, and offline support. The use of MVVM and Clean architecture ensures maintainable and scalable code. The application provides a seamless user experience with features like biometric authentication and adaptive data synchronization.
-Contact
+## Contact
 For any questions or support, please contact [ahmedsallamdd@gmail.com].

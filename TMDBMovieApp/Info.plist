@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GoogleRedirectURL</key>
+	<string>com.googleusercontent.apps.816128703432-kc32n8rona1khs7pf9epej4fj0fct8bo:/oauth2redirect/google</string>
+	<key>GoogleClientId</key>
+	<string>816128703432-kc32n8rona1khs7pf9epej4fj0fct8bo.apps.googleusercontent.com</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
