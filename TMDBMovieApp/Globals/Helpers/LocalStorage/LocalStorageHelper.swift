@@ -32,12 +32,13 @@ class LocalStorageHelper: Storable {
 public enum LocalStorageKey: String {
     case accessToken
     case accessTokenExpirationDate
+    case email
     
     var securityLevel: SequrityLevel {
         switch self {
         case .accessToken:
             return .high
-        case .accessTokenExpirationDate:
+        case .accessTokenExpirationDate, .email:
             return .normal
         }
     }

@@ -60,15 +60,15 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: CategoryTableViewCell.identifier, for: indexPath) as? CategoryTableViewCell {
             
-//            let type: MediaType = indexPath.section == 0 ? .movie : .tvShow
-//            let tmdbMedia = self.viewModel.favorites.filter({ $0.type == type })
-//            
-//            cell.mediaType = type
-//            cell.configure(with: Array(tmdbMedia))
-//            
-//            cell.didSelectItem = {[weak self] media in
-//                self?.show(MovieDetailsViewController(with: MovieDetailsViewModel(media: media)), sender: nil)
-//            }
+            let type: MediaType = indexPath.section == 0 ? .movie : .tvShow
+            let tmdbMedia = self.viewModel.favorites.filter({ $0.type == type })
+            
+            cell.mediaType = type
+            cell.configure(with: Array(tmdbMedia))
+            
+            cell.didSelectItem = {[weak self] media in
+                self?.show(MovieDetailsViewController(with: MovieDetailsViewModel(media: media)), sender: nil)
+            }
             
             return cell
         }

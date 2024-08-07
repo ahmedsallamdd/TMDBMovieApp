@@ -21,7 +21,7 @@ protocol MediaRepository: Repository {
 }
 
 protocol AuthUserRepository: Repository {
-    associatedtype T = UserProfileModel
+    associatedtype T = UserProfileModel?
 }
 
 extension Repository {

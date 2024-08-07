@@ -20,13 +20,12 @@ class RoundedButton: UIButton {
 }
 
 @IBDesignable
-class RoundedImageView: UIImageView {
+class CustomImageView: UIImageView {
 
-    override func layoutSubviews() {
-        super.layoutSubviews()
-
-        let radius = min(bounds.width, bounds.height) / 2
-        layer.cornerRadius = radius
+    @IBInspectable var cornerRadius: CGFloat = 10.0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+        }
     }
 
 }

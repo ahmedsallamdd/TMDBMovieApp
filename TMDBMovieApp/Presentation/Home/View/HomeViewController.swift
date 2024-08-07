@@ -72,6 +72,7 @@ class HomeViewController: ViewController {
         
         moviesCollectionView.collectionViewLayout = layout
         moviesCollectionView.isScrollEnabled = true
+        moviesCollectionView.backgroundColor = .black
     }
     
     fileprivate func setupTvShowsCollectionView() {
@@ -86,6 +87,7 @@ class HomeViewController: ViewController {
         
         tvShowsCollectionView.collectionViewLayout = layout
         tvShowsCollectionView.isScrollEnabled = true
+        tvShowsCollectionView.backgroundColor = .black
     }
     
     fileprivate func getItemSize(for collectionView: UICollectionView) -> CGSize {
@@ -121,6 +123,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
                 
                 let item = self.viewModel.movies[indexPath.row]
                 cell.moviePosterImageView.image = item.image
+                cell.moviePosterImageView.contentMode = .scaleAspectFit
                 cell.movieNameLabel.text = item.title
                 cell.movieGenreLabel.text = item.genresAsString
                 
@@ -131,6 +134,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
                 
                 let item = self.viewModel.tvShows[indexPath.row]
                 cell.moviePosterImageView.image = item.image
+                cell.moviePosterImageView.contentMode = .scaleAspectFit
                 cell.movieNameLabel.text = item.title
                 cell.movieGenreLabel.text = item.genresAsString
                 

@@ -24,8 +24,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uvI-jL-YwX">
                                 <rect key="frame" x="10" y="10" width="369" height="287"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movieclapper" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-kS-b5z" customClass="RoundedImageView" customModule="TMDBMovieApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="-1.6666666666666714" width="369" height="230.66666666666663"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movieclapper" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-kS-b5z" customClass="CustomImageView" customModule="TMDBMovieApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="-1.6666666666666714" width="369" height="230.66666666666669"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BH6-Y9-NSd">
                                         <rect key="frame" x="0.0" y="253" width="369" height="34"/>

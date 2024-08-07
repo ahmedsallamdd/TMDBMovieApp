@@ -5,6 +5,12 @@
       location = "group:TMDBMovieApp.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:/Users/ahmedsallam/Desktop/Me/Personal Projects/TMDBMovieApp/TMDBMovieApp/DataModels/UserEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ahmedsallam/Desktop/Me/Personal Projects/TMDBMovieApp/TMDBMovieApp/DataModels/UserEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

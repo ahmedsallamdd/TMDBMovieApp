@@ -11,6 +11,7 @@ class MoviesRepository: MediaRepository {
     var genres: [Genre] = []
     var currentPageNumber: Int = 0
     var totalNumberOfPages: Int = 0
+    var didSendOfflineDataAlready = false
     
     func fetchData(_ completion: @escaping (Result<[TMDBMedia], NetworkError>) -> Void) {
         
@@ -33,7 +34,12 @@ class MoviesRepository: MediaRepository {
             }
             
         } else {
-            completion(.success(CoreDataHelper.shared.fetchMedia().filter({ $0.type == .movie })))
+            if didSendOfflineDataAlready == false {
+                completion(.success(CoreDataHelper.shared.fetchMedia().filter({ $0.type == .movie })))
+                self.didSendOfflineDataAlready = true
+            } else {
+                completion(.success([]))
+            }
         }
     }
     

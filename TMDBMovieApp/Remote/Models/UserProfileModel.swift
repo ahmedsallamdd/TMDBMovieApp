@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct UserProfileModel: Codable {
     let sub, name, givenName, familyName: String
@@ -13,6 +14,9 @@ struct UserProfileModel: Codable {
     let email: String
     let emailVerified: Bool
 
+    var cachedImage: UIImage?
+    var favorites: Set<SavedMediaEntity>?
+    
     enum CodingKeys: String, CodingKey {
         case sub, name
         case givenName = "given_name"

@@ -62,42 +62,7 @@ class CoreDataHelper {
         
         return false
     }
-    
-    func checkAndDeleteIfFavoriteExists(id: Int) -> Bool {
-        let fetchRequest: NSFetchRequest<FavoriteMediaEntity> = FavoriteMediaEntity.fetchRequest()
-        fetchRequest.predicate = NSPredicate(format: "id == %d", id)
-        
-        do {
-            let matchingRecords = try context.fetch(fetchRequest)
-            
-            if matchingRecords.count > 0 {
 
-                //if it's only one record, then exit the func
-                if matchingRecords.count == 1 { return true }
-                
-                //delete all except for only one
-                let numberOfDuplicates = matchingRecords.count - 2
-                
-                guard numberOfDuplicates > 1 else {
-                    return true
-                }
-                
-                for i in 0...numberOfDuplicates {
-                    context.delete(matchingRecords[i])
-                }
-                
-                saveContext()
-                
-                return true
-            }
-            
-        } catch {
-            print("Failed fetching by id: \(error)")
-            return false
-        }
-        
-        return false
-    }
     // MARK: - Save TMDBMedia
     func save(media: TMDBMedia) {
         if checkAndDeleteIfMediaExists(id: media.id) == false {
@@ -120,35 +85,6 @@ class CoreDataHelper {
     func save(mediaList: [TMDBMedia]) {
         for media in mediaList {
             save(media: media)
-        }
-    }
-    
-    func addToFavorites(media: TMDBMedia) {
-        if checkAndDeleteIfFavoriteExists(id: media.id) == false {
-            let entity = FavoriteMediaEntity(context: context)
-            entity.id = Int32(media.id)
-            
-            saveContext()
-        }
-    }
-    
-    func deleteFromFavorites(_ item: FavoriteMediaEntity) {
-        context.delete(item)
-        saveContext()
-    }
-    
-    func fetchFavoritesIDsList() -> [FavoriteMediaEntity] {
-        let fetchRequest: NSFetchRequest<FavoriteMediaEntity> = FavoriteMediaEntity.fetchRequest()
-
-        do {
-            let results = try context.fetch(fetchRequest)
-            return results.compactMap { entity in
-                
-                return entity
-            }
-        } catch {
-            print("Failed fetching: \(error)")
-            return []
         }
     }
     
@@ -244,4 +180,136 @@ class CoreDataHelper {
         
         return nil
     }
+    
+    func checkAndDeleteIfUserExists(email: String) -> Bool {
+        let fetchRequest: NSFetchRequest<UserEntity> = UserEntity.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "email == %@", email)
+        
+        do {
+            let matchingRecords = try context.fetch(fetchRequest)
+            
+            if matchingRecords.count > 0 {
+
+                //if it's only one record, then exit the func
+                if matchingRecords.count == 1 { return true }
+                
+                //delete all duplicates except for only one
+                let numberOfDuplicates = matchingRecords.count - 1
+                
+                for i in 0...numberOfDuplicates {
+                    context.delete(matchingRecords[i])
+                }
+                
+                saveContext()
+                
+                return true
+            }
+            
+        } catch {
+            print("Failed fetching by id: \(error)")
+            return false
+        }
+        
+        return false
+    }
+    func saveCurrentUser(_ user: UserProfileModel) {
+        if checkAndDeleteIfUserExists(email: user.email) == false {
+            let entity = UserEntity(context: context)
+            entity.email = user.email
+            entity.firstName = user.givenName
+            entity.lastName = user.familyName
+            entity.picture = user.cachedImage?.pngData()
+            entity.favorites = user.favorites as? NSSet
+            
+            saveContext()
+            print("new user with email=\(user.email) saved to core data")
+        }
+        
+        print("A user with email=\(user.email) already exists in core data")
+    }
+    
+    func fetchCurrentUser(userEmail: String) -> UserProfileModel? {
+        let fetchRequest: NSFetchRequest<UserEntity> = UserEntity.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "email == %@", userEmail)
+        
+        do {
+            if let entity = try context.fetch(fetchRequest).first(where: {$0.email == userEmail}) {
+                var image: UIImage?
+                if let imageData = entity.picture { image = UIImage(data: imageData) }
+                
+                let user = UserProfileModel(sub: "",
+                                            name: "",
+                                            givenName: entity.firstName ?? "",
+                                            familyName: entity.lastName ?? "",
+                                            picture: "",
+                                            email: entity.email ?? "",
+                                            emailVerified: .random(),
+                                            cachedImage: image,
+                                            favorites: entity.favorites as? Set<SavedMediaEntity>)
+                print("User with email=\(userEmail) fetched successfully. favCount=\(entity.favorites?.count ?? 0)")
+                saveContext()
+                return user
+            }
+        } catch {
+            print("Failed fetching by id: \(error)")
+        }
+        
+        return nil
+    }
+    
+    func addMediaToUserFavorites(email: String, media: TMDBMedia) {
+        let fetchRequest: NSFetchRequest<UserEntity> = UserEntity.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "email == %@", email)
+        
+        do {
+            if let user = try context.fetch(fetchRequest).first(where: {$0.email == email}) {
+                let entity = SavedMediaEntity(context: context)
+                
+                entity.id = Int32(media.id)
+                entity.posterUrl = media.posterUrl
+                entity.image = media.image?.jpegData(compressionQuality: 1)
+                entity.type = Int16(media.type.rawValue)
+                entity.title = media.title
+                entity.genresAsString = media.genresAsString
+                entity.overview = media.overview
+                entity.rating = media.rating
+                entity.releaseDate = media.releaseDate
+                entity.isAdult = media.isAdult
+                
+                user.addToFavorites(entity)
+                
+                saveContext()
+                print("Media added to user's favorites successfully.")
+            } else {
+                print("User not found.")
+            }
+        } catch {
+            print("Failed to add media to user's favorites: \(error)")
+        }
+    }
+
+    func removeMediaFromUserFavorites(email: String, media: TMDBMedia) {
+        let fetchRequest: NSFetchRequest<UserEntity> = UserEntity.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "email == %@", email)
+        
+        do {
+            if let user = try context.fetch(fetchRequest).first {
+                if let favoriteMovies = user.favorites as? Set<SavedMediaEntity> {
+                    if let movieToRemove = favoriteMovies.first(where: { $0.id == media.id }) {
+                        context.delete(movieToRemove)
+                        
+                        saveContext()
+                        print("Media removed from user's favorites successfully.")
+                    } else {
+                        print("Media not found in user's favorites.")
+                    }
+                }
+            } else {
+                print("User not found.")
+            }
+        } catch {
+            print("Failed to remove media from user's favorites: \(error)")
+        }
+    }
+
 }

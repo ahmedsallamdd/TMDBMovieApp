@@ -8,23 +8,42 @@
 import Foundation
 
 class MovieDetailsViewModel: ViewModel {
-    let media: TMDBMedia
+    fileprivate let lastSignedInUserEmail = LocalStorageHelper.shared.get(for: .email) as? String
     
-    var favoritesIDs = CoreDataHelper.shared.fetchFavoritesIDsList()
-    var isAddedToFavorites: Bool { favoritesIDs.map({ Int($0.id) }).contains(media.id) }
+    let media: TMDBMedia
+
+    var isAddedToFavorites: Bool {
+        if let user = getRefreshedCurrentUserInfo(),
+           let userFavorites = user.favorites, userFavorites.count > 0 {
+            for favorite in userFavorites {
+                if favorite.id == media.id { return true }
+            }            
+        }
+        
+        return false
+    }
     
     init(media: TMDBMedia) {
         self.media = media
     }
     
+    fileprivate func getRefreshedCurrentUserInfo() -> UserProfileModel? {
+        if let currentUserEmail = LocalStorageHelper.shared.get(for: .email) as? String {
+            return CoreDataHelper.shared.fetchCurrentUser(userEmail: currentUserEmail)
+        }
+        
+        return nil
+    }
+    
     func addToFavorites() {
-        CoreDataHelper.shared.addToFavorites(media: media)
-        favoritesIDs = CoreDataHelper.shared.fetchFavoritesIDsList()
+        if let lastSignedInUserEmail {
+            CoreDataHelper.shared.addMediaToUserFavorites(email: lastSignedInUserEmail, media: media)
+        }
     }
     
     func deleteFromFavorites() {
-        if let object = favoritesIDs.first(where: { Int($0.id) == media.id }) {
-            CoreDataHelper.shared.deleteFromFavorites(object)
+        if let lastSignedInUserEmail {
+            CoreDataHelper.shared.removeMediaFromUserFavorites(email: lastSignedInUserEmail, media: media)
         }
     }
 }
